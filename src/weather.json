@@ -1,0 +1,37 @@
+[
+  {
+    "dayOfTheWeek": "Mon",
+    "highLow": [78, 67],
+    "weather": "cloudy"
+  },
+  {
+    "dayOfTheWeek": "Tue",
+    "highLow": [83, 66],
+    "weather": "sunny"
+  },
+  {
+    "dayOfTheWeek": "Wed",
+    "highLow": [78, 67],
+    "weather": "rainy"
+  },
+  {
+    "dayOfTheWeek": "Thu",
+    "highLow": [78, 67],
+    "weather": "cloudy"
+  },
+  {
+    "dayOfTheWeek": "Fri",
+    "highLow": [78, 67],
+    "weather": "cloudy"
+  },
+  {
+    "dayOfTheWeek": "Sat",
+    "highLow": [78, 67],
+    "weather": "cloudy"
+  },
+  {
+    "dayOfTheWeek": "Sun",
+    "highLow": [78, 67],
+    "weather": "cloudy"
+  }
+]
