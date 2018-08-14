@@ -4,7 +4,7 @@ body {
   font-family: sans-serif;
 }
 
-.App {
+.CardWrapper {
   display: flex;
   flex-direction: row;
 
@@ -14,7 +14,7 @@ body {
 }
 
 .weatherCard {
-  max-width: 140px;
+  /* max-width: 140px; */
   width: 100%;
 }
 

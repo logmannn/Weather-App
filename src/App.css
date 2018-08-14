@@ -1,5 +1,12 @@
 .App {
   text-align: center;
+  width: 100%;
+  max-width: 1000px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .App-logo {
@@ -25,4 +32,13 @@
 .selected {
   border: 1px solid grey;
   background-color: #d3d3d3;
+  margin-left: -1px;
+  margin-right: -1px;
+  margin-top: -1px;
+}
+
+.HourlyWeather {
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }

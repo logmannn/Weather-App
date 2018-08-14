@@ -1,0 +1,12 @@
+.hourlyCard {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.hour,
+.hourlyWeather,
+.hourlyTemperature {
+  padding: 10px;
+  border-bottom: 1px solid black;
+}

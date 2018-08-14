@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import WeatherCard from "./WeatherCard";
+import DailyWeather from "./DailyWeather";
 import logo from "./logo.svg";
 import "./App.css";
 
@@ -7,19 +8,15 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      dailyHours: ""
+      dailyHours: [{}, {}]
     };
     this.handler = this.handler.bind(this);
   }
 
   handler(dailyHours) {
-    // event.preventDefault();
-    // console.log(dailyHours);
-    // console.log(this.props);
     this.setState({
       dailyHours: dailyHours
     });
-    // console.log(this.state);
   }
 
   render() {
@@ -31,7 +28,6 @@ class App extends Component {
       if (this.state.dailyHours[0] == weather.dayOfTheWeek) {
         selected = weather.dayOfTheWeek;
       }
-
       cards.push(
         <WeatherCard
           weather={weather}
@@ -42,7 +38,14 @@ class App extends Component {
       );
     });
 
-    return <div className="App">{cards}</div>;
+    return (
+      <div className="App">
+        <div className="CardWrapper">{cards}</div>
+        <div className="HourlyWeather">
+          <DailyWeather hourlyWeather={this.state.dailyHours} />
+        </div>
+      </div>
+    );
   }
 }
 

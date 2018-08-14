@@ -1,0 +1,7 @@
+.hourlyCard {
+  display: flex;
+}
+
+.day {
+  display: block;
+}
