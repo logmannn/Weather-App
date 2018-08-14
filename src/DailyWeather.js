@@ -30,12 +30,7 @@ class DailyWeather extends Component {
       });
     }
 
-    return (
-      <div className="hourlyCard">
-        {/* <div class="day">{selected}</div> */}
-        {hourlyCards}
-      </div>
-    );
+    return <div className="hourlyCard">{hourlyCards}</div>;
   }
 }
 
