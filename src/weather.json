@@ -2,36 +2,127 @@
   {
     "dayOfTheWeek": "Mon",
     "highLow": [78, 67],
-    "weather": "cloudy"
+    "weather": "cloudy",
+    "hourly": [
+      [
+        "Cloudy",
+        "Cloudy",
+        "Cloudy",
+        "Cloudy",
+        "Cloudy",
+        "Cloudy",
+        "Sunny",
+        "Sunny"
+      ],
+      ["79", "80", "78", "77", "77", "75", "76", "77"]
+    ]
   },
   {
     "dayOfTheWeek": "Tue",
     "highLow": [83, 66],
-    "weather": "sunny"
+    "weather": "sunny",
+    "hourly": [
+      [
+        "Sunny",
+        "Cloudy",
+        "Cloudy",
+        "Cloudy",
+        "Cloudy",
+        "Cloudy",
+        "Sunny",
+        "Sunny"
+      ],
+      ["79", "80", "78", "77", "77", "75", "76", "77"]
+    ]
   },
   {
     "dayOfTheWeek": "Wed",
     "highLow": [78, 67],
-    "weather": "rainy"
+    "weather": "rainy",
+    "hourly": [
+      [
+        "Cloudy",
+        "Cloudy",
+        "Cloudy",
+        "Cloudy",
+        "Cloudy",
+        "Cloudy",
+        "Sunny",
+        "Sunny"
+      ],
+      ["79", "80", "78", "77", "77", "75", "76", "77"]
+    ]
   },
   {
     "dayOfTheWeek": "Thu",
     "highLow": [78, 67],
-    "weather": "cloudy"
+    "weather": "cloudy",
+    "hourly": [
+      [
+        "Cloudy",
+        "Cloudy",
+        "Cloudy",
+        "Cloudy",
+        "Cloudy",
+        "Cloudy",
+        "Sunny",
+        "Sunny"
+      ],
+      ["79", "80", "78", "77", "77", "75", "76", "77"]
+    ]
   },
   {
     "dayOfTheWeek": "Fri",
     "highLow": [78, 67],
-    "weather": "cloudy"
+    "weather": "cloudy",
+    "hourly": [
+      [
+        "Cloudy",
+        "Cloudy",
+        "Cloudy",
+        "Cloudy",
+        "Cloudy",
+        "Cloudy",
+        "Sunny",
+        "Sunny"
+      ],
+      ["79", "80", "78", "77", "77", "75", "76", "77"]
+    ]
   },
   {
     "dayOfTheWeek": "Sat",
     "highLow": [78, 67],
-    "weather": "cloudy"
+    "weather": "cloudy",
+    "hourly": [
+      [
+        "Cloudy",
+        "Cloudy",
+        "Cloudy",
+        "Cloudy",
+        "Cloudy",
+        "Cloudy",
+        "Sunny",
+        "Sunny"
+      ],
+      ["79", "80", "78", "77", "77", "75", "76", "77"]
+    ]
   },
   {
     "dayOfTheWeek": "Sun",
     "highLow": [78, 67],
-    "weather": "cloudy"
+    "weather": "cloudy",
+    "hourly": [
+      [
+        "Cloudy",
+        "Cloudy",
+        "Cloudy",
+        "Cloudy",
+        "Cloudy",
+        "Cloudy",
+        "Sunny",
+        "Sunny"
+      ],
+      ["79", "80", "78", "77", "77", "75", "76", "77"]
+    ]
   }
 ]
